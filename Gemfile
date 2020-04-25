@@ -18,7 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
-gem 'bootstrap-sass', '~> 3.0.3.0'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'carrierwave'
 gem "fog", "~> 1.3.1"
 gem 'mini_magick', "~> 3.7.0"
