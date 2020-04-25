@@ -7,8 +7,7 @@ group :development, :test do
   gem 'spring'
   #gem 'mysql2', '~> 0.3.13'
 end
-gem 'pg'
-
+gem 'pg', '0.21.0'
 group :production do
   gem 'rails_12factor'
 end
