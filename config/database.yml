@@ -1,0 +1,21 @@
+
+default: &default
+  adapter: mysql2
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: 12345678
+  #socket: /var/run/mysqld/mysqld.sock
+development:
+  <<: *default
+  database: gallery
+  host: 127.0.0.1
+
+
+test:
+  <<: *default
+  database: gallery
+  host: 127.0.0.1
+
+production:
+  <<: *default
+  database: gallery
