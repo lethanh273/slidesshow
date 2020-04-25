@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'carrierwave'
 gem "fog", "~> 1.3.1"
-gem 'mini_magick', "~> 3.7.0"
+gem 'mini_magick', "~> 4.9.4"
 gem "jquery-fileupload-rails"
 
 
