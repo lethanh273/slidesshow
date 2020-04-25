@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
+ruby '2.3.0'
 
-gem 'rails', '4.1.4'
+gem 'rails', '~> 4.1.6'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'spring'
+  #gem 'mysql2', '~> 0.3.13'
 end
-gem 'mysql2', '~> 0.3.13'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
