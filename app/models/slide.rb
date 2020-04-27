@@ -15,7 +15,7 @@ class Slide < ActiveRecord::Base
   end
 
   def first
-    Slide.find(1)
+    Slide.first
   end
 
   def last
